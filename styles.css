@@ -1,0 +1,143 @@
+
+.profilepic{
+  position: relative;
+  width: 50%;
+  padding: 50px 0 0 0;
+}
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+/* em is inherited from ancestor// rem is not
+*/
+.top-container{
+  position: relative;
+  height: 680px;
+  background-color: #EFFFFD;
+}
+h1{
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 200px;
+  color: #66BFBF;
+}
+.occ{
+  position: relative;
+  top: 210px;
+  color: #66BFBF;
+  font-weight:normal;
+}
+h2{
+  font-size: 30px;
+  color: #66BFBF;
+}
+h3{
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+  color: grey;
+  margin: 50px auto 50px auto;
+}
+.cloud1{
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+.cloud{
+  top:50px;
+  left: 300px;
+  position: absolute;
+}
+.mountain{
+  position: absolute;
+  bottom: 0px;
+  right: 300px;
+}
+
+.middle-container{
+  width: 100%;
+}
+.skills{
+  position: relative;
+  top:0px;
+  margin: 50px auto 0 auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.hat{
+  width: 25%;
+  float: left;
+  margin: auto 30px auto auto;
+}
+.laptop{
+  width: 25%;
+  float: right;
+  margin: auto auto auto 30px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 80px auto auto auto;
+  height: 200px;
+}
+.letter{
+  margin: 0 auto 50px auto;
+}
+.contact-me{
+  text-decoration: none;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+/* block so yin margin thone lo ma ya inline so ll margin thone lo ma ya inline-block hma margin thone lo ya
+*/
+a{
+  text-decoration: none;
+}
+.footer{
+  color: #11999E;
+  display: inline-block;
+  margin: 50px 40px;
+}
+.surname{
+  color: #EAF6F6;
+  margin: 10px auto;
+}
+.GIT{
+  position: relative;
+  top: 10px;
+}
